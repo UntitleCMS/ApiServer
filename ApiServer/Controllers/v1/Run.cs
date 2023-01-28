@@ -5,7 +5,7 @@ using CliWrap.Buffered;
 using Newtonsoft.Json;
 using Api.Utills.Execution;
 
-namespace Api.Controllers
+namespace Api.Controllers.v1
 {
     [Route("api/v1/run")]
     [ApiController]

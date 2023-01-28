@@ -1,15 +1,16 @@
 ﻿using FluentAssertions;
 using CliWrap;
 using CliWrap.Buffered;
+using Api.Utills.Execution;
 
-namespace Api.Utills.Execution.Tests
+namespace UnitTest.Utills.Execution
 {
     public class ExecutionTests
     {
         [Fact()]
         public async Task RunTest()
         {
-            var expected = new BufferedCommandResult(0,new(),new(),"","");
+            var expected = new BufferedCommandResult(0, new(), new(), "", "");
             var ExecutionInstant = Execution.Instance;
             var mockStrategy = MockStrategy.Type;
             var dummySourceCode = new SourceCode() { Code = "", Input = "" };

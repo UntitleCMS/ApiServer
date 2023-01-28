@@ -1,4 +1,4 @@
-using Api.Controllers;
+using Api.Controllers.v1;
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc;
 

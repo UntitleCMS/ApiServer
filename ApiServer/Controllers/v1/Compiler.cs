@@ -5,7 +5,7 @@ using CliWrap.Buffered;
 using Microsoft.AspNetCore.Cors;
 using System.Net.Sockets;
 
-namespace Api.Controllers
+namespace Api.Controllers.v1
 {
     [Route("api/v1")]
     [ApiController]
