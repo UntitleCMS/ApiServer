@@ -30,7 +30,7 @@ namespace Api.Utills.SaveFile
             string hash = BitConverter
                 .ToString(hashBytes)
                 .Replace("-", string.Empty);
-            return hash;
+            return hash; 
         }
 
     }
